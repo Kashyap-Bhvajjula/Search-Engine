@@ -1,0 +1,20 @@
+create database searchengine;
+
+use searchengine;
+
+
+create table pages(
+	pagetitle varchar(200),
+    pagelink text,
+    pagetext mediumtext
+);
+
+select * from pages;
+
+
+create table history(
+	keyword text,
+    link text
+);
+
+select * from history;
